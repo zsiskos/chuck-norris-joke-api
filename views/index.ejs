@@ -6,10 +6,18 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1 class="jumbotron text-center">Chuck Norris Jokes</h1>
-    <form action="/" method="GET">
-    <button type="submit" class="btn btn-primary">Get Chuck Norris Joke</button>
-    </form>
-    <%=  joke %>
+    <h1 class="jumbotron text-center container">
+      <img src="https://assets.chucknorris.host/img/avatar/chuck-norris.png"/>Chuck Norris Jokes
+  </h1>
+    <div class="container-sm">
+      <%=  joke %>
+    </div>
+    
+    <div>
+      <form action="/" method="GET">
+        <button type="submit" class="btn btn-primary btn-lg">New Joke</button>
+      </form>
+    </div>
+   
   </body>
 </html>

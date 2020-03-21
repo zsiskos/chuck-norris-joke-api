@@ -1,8 +1,27 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.container {
+  border-radius: 5%;
+  max-width: 560px;
+}
+
+.container-sm {
+  text-align: center;
+  max-width: 560px;
 }
 
 a {
   color: #00B7FF;
+}
+
+div {
+  align-items: center;
+  margin: 25px;
 }
